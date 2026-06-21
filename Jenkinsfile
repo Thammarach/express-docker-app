@@ -159,7 +159,7 @@ pipeline {
                     echo "Pipeline finished with status: ${currentBuild.currentResult}"
                 }
                 success {
-                    echo "Pipeline succeeded!"
+                    echo "Pipeline complete, succeeded!"
                 }
                 failure {
                     // ส่งข้อมูลไปยัง n8n webhook เมื่อ pipeline ล้มเหลว
